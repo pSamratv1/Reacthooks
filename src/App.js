@@ -1,23 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
+import StateTuts from './component/StateTuts';
+import UseStateArray from './component/UseStateArray';
+import ThreeDot from './component/ThreeDot';
+import ShortCktEval from './component/ShortCktEval';
+import BasicForms from './component/forms/BasicForms';
+import UseEffects1 from './component/useEffect/UseEffects1';
+import UseEffect2 from './component/useEffect/UseEffect2';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <StateTuts />
+      <UseStateArray />
+      <ThreeDot />
+      <ShortCktEval />
+      <BasicForms />
+      <UseEffects1 />
+      <UseEffect2 />
     </div>
   );
 }
